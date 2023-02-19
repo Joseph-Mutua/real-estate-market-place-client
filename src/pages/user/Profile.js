@@ -69,7 +69,7 @@ export default function Profile() {
 
   return (
     <>
-      <h1 className="display-1 bg-primary text-light p-5">Profile</h1>
+      <h1 className="display-1 bg-info text-light p-5">Profile</h1>
       <div className="container-fluid">
         <Sidebar />
         <div className="container mt-2">

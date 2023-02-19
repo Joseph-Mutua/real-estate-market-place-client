@@ -26,7 +26,7 @@ export default function Rent() {
   return (
     <div>
       <SearchForm />
-      <h1 className="display-1 bg-primary text-light p-5">For Rent</h1>
+      <h1 className="display-1 bg-info text-light p-5">For Rent</h1>
       <div className="container">
         <div className="row">
           {ads?.map((ad) => (

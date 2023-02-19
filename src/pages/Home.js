@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <SearchForm />
-      <h1 className="display-1 bg-primary text-light p-5">For Sell</h1>
+      <h1 className="display-1 bg-info text-light p-5">For Sell</h1>
       <div className="container">
         <div className="row">
           {adsForSell?.map((ad) => (
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h1 className="display-1 bg-primary text-light p-5">For Rent</h1>
+      <h1 className="display-1 bg-info text-light p-5">For Rent</h1>
       <div className="container">
         <div className="row">
           {adsForRent?.map((ad) => (

@@ -26,7 +26,7 @@ export default function Wishlist() {
 
   return (
     <div>
-      <h1 className="display-1 bg-primary text-light p-5">Wishlist</h1>
+      <h1 className="display-1 bg-info text-light p-5">Wishlist</h1>
       <Sidebar />
 
       {!ads?.length ? (

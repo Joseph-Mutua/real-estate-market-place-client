@@ -25,6 +25,7 @@ export default function Register() {
         toast.error(data.error);
         setLoading(false);
       } else {
+        console.log("REGISTRATIOON RESPONSE", data);
         toast.success("Please check your email to complete registration");
         setLoading(false);
         navigate("/");
@@ -39,7 +40,7 @@ export default function Register() {
 
   return (
     <div>
-      <h1 className="display-1 bg-primary text-light p-5">Register</h1>
+      <h1 className="display-1 bg-info text-light p-5">Register</h1>
 
       <div className="container">
         <div className="row">
