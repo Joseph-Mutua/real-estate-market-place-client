@@ -83,7 +83,7 @@ export default function ImageUpload({ ad, setAd }) {
           key={index}
           src={file?.Location}
           shape="square"
-          size="46"
+          size="80"
           className="ml-2 mb-4"
           onClick={() => handleDelete(file)}
         />
