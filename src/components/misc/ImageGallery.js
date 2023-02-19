@@ -3,18 +3,7 @@ import { useState, useCallback } from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 
-// const photos = [
-//   {
-//     src: "https://realist-app-udemy-course-bucket.s3.amazonaws.com/q6FJqA0V-0Ryx1UC7MDQa.jpeg",
-//     width: 4,
-//     height: 3,
-//   },
-//   {
-//     src: "https://realist-app-udemy-course-bucket.s3.amazonaws.com/FpP5Z2pYaPqTTOrJu2MzN.jpeg",
-//     width: 1,
-//     height: 1,
-//   },
-// ];
+
 
 export default function ImageGallery({ photos }) {
   // state

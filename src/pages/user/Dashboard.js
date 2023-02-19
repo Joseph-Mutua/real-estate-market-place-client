@@ -47,7 +47,7 @@ export default function Dashboard() {
         >
           <h2>
             Hey {auth.user?.name ? auth.user?.name : auth.user?.username},
-            Welcome to Realist App
+            Welcome to Soko Mali
           </h2>
         </div>
       ) : (
